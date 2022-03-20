@@ -1,3 +1,6 @@
+torch==1.9
+matplotlib
+pandas 
 Cython==0.29.24
 mecab-python3==1.0.3
 ipadic==1.0.0
