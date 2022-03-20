@@ -1,0 +1,11 @@
+version: '3'
+services:
+  bert-book:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: bert-book-image
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
